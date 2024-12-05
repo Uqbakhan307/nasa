@@ -114,10 +114,10 @@ body {
 }
 
 .card {
-    border: none;
+    /* border: none; */
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 4px;
     transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
@@ -127,7 +127,7 @@ body {
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #333;
 }
 
@@ -135,7 +135,13 @@ p {
     font-size: 0.85rem;
     margin: 0;
 }
-
+.img>img{
+    width: 17%;
+    
+}
+.imag>img{
+    width: 26%;
+}
  
  body {
     margin: 0;
@@ -406,3 +412,17 @@ footer .social-icons a {
     font-size: 20px;
 }
 
+.card-img-down {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image fits the container */
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
