@@ -94,7 +94,7 @@ h2 {
 }
 
 .card-title {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     font-weight: bold;
     color: #000;
 }
@@ -102,6 +102,10 @@ h2 {
 .card-text {
     font-size: 0.9rem;
     color: #666;
+}
+.top{
+    height: 300px;
+    width: auto;
 }
 
 body {
