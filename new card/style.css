@@ -1,0 +1,404 @@
+.placeholder {
+    color: rgb(228, 210, 210);
+  }  /* Additional styling */
+  .navbar {
+    background-color: black;
+  }
+  .navbar-brand img {
+    width: 40px;
+  }
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-nav .nav-link:hover {
+    color: red;
+    border: 3px 3px 3px  sloid rgb(26, 77, 153);
+  }
+  .search-input {
+    background-color: rgb(226, 221, 221);
+    color: white;
+    border: 1px solid gray;
+  }
+  .img{
+    background-color: #fff;
+    border-radius: 89%;
+  }
+
+.nav-item a{
+    color: #fff;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+  
+   
+}
+.dark{
+    background-color: black;
+}
+
+header input[type="search"] {
+    max-width: 300px;
+    border: 1px solid #0a0a0a;
+}
+
+h1 {
+    color: #fff;
+}
+
+a.btn-outline-light {
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    main .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+p{
+    color: #fff;
+}
+.container{
+    color: #fff;
+}
+h5{
+    font-weight: lighter;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+    transform: scale(1.05); /* Slightly increase the size */
+}
+
+h6 {
+    font-size: 1rem;
+    color: #333;
+}
+
+p {
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-overlay img {
+    filter: brightness(50%); /* Darkens the image for text visibility */
+}
+
+.position-absolute {
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds depth to the text */
+}
+
+p.lead {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Subtle text shadow */
+}
+
+p.text-danger {
+    font-size: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.image-overlay {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.image-overlay:hover img {
+  opacity: 1;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.overlay-text span {
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh; /* Full screen height */
+  background: url('https://www.nasa.gov/wp-content/uploads/2023/03/187_1003705_americas_dxm.png') center center/cover no-repeat;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for opacity effect */
+}
+
+.hero-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2; /* Above the overlay */
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8); /* Adds shadow for better visibility */
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+.hero-content .btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.hero-content .btn:hover {
+  background-color: #dc3545; /* Change background color to red */
+  color: #fff; /* Change text color to white */
+  transform: scale(1.1); /* Slightly increase the size of the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #0a0a0a;
+  }
+  
+  .content h5 {
+    font-size: 1.25rem;
+    color: #0a0a0a;
+  }
+  .image{
+    color :#333;
+  }
+
+  @media (max-width: 768px) {
+    .content p {
+      font-size: 0.95rem;
+    }
+  
+    .content h5 {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .content p {
+      font-size: 0.9rem;
+    }
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .caption {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .images-row img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .image-container {
+        margin-bottom: 15px;
+    }
+  
+    .content h5 {
+      font-size: 1rem;
+    }
+  }
+  
+ .last{
+    position: relative;
+    height: 100vh; /* Full screen height */
+    background: url('https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199'); center center/cover no-repeat;
+  
+ }
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+.content-section {
+    margin-top: 20px;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.link {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d9534f;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.view-link {
+    margin-top: 10px;
+    display: block;
+    color: #0062cc;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    font-size: 20px;
+}
+
